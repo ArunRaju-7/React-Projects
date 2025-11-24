@@ -16,16 +16,52 @@
   padding-left: 50px;
   font-weight: bold;
   font-size: 24px;
-  flex: 1;
-  justify-content: flex-start;
+  flex: 3;
 }
 
 .header-search-bar-section {
-  flex: 2;
-  justify-content: center;
+  flex: 4;
+}
+
+.header-section-input-section {
+  flex: 1;
+  width: 100%;
+  min-width: 150px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 3px 12px;
 }
 
 .header-right-section {
-  flex: 1;
-  justify-content: flex-end;
+  flex: 3;
+  justify-content: center;
+}
+
+.header-section-input-section-icon {
+  background-color: rgb(255, 102, 102);
+  padding: 8px 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.header-right-section-calender-icon,
+.header-right-section-notification-icon {
+  background-color: rgb(255, 102, 102);
+  padding: 8px 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.header-right-section-timeline {
+  padding-right: 20px;
+}
+
+.header-right-section {
+  display: flex;
+  gap: 20px;
+}
+
+.header-right-section-icons {
+  display: flex;
 }
